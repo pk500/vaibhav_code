@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script >
+        function showhide()
+        {
+            var div = document.getElementById("3do");
+            if (div.style.display !== "none")
+             {
+                div.style.display = "none";
+             }
+             else
+             {
+                 div.style.display = "block";
+             }
+        }
+    </script>
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$(document).ready(function(){    
+
+    //this is for taggeling button 
+    $("#3do").hide();
+
+    $("#o123p").click(function(){
+        $("#3do").show();
+    });
+
+//this for date 
+     $( function() {
+    $( "#date1" ).datepicker();
+  } );
+}); -->
+
+</script>
+</head>
+<body>
+    <form class="">
+      
+
+
+    <br>
+
+        <input type="radio" name="gender" value="male" id="o123p" onclick="showhide()"> Male<br>
+        <div id="3do" style="display: none">
+                <input type="radio" name="gender" value="other"> Other <br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other  
+           </div>
+        <input type="radio" name="gender" value="female"> Female<br>
+      
+        <input type="" name="" value="" id="date1">
+    </form>
+</body>
+</html>
